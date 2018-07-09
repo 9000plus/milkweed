@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bangers|Luckiest+Guy|Permanent+Marker|Prosto+One|Roboto+Condensed|Sedgwick+Ave');
+@import url('https://fonts.googleapis.com/css?family=Lora:300|Open+Sans+Condensed:700');
+@import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans|Quattrocento);
+
+
+/* ******************** establishing fonts, colors and positions of headers and body copy *********************************** */
+
+html {
+    background-color: #79b877;
+}
+
+body {
+    font-family: 'Lora:300', cursive;
+    font-size: 87%;
+    color: #000000;
+}
+
+header {
+    height: 200px;
+}
+
+
+h1 {
+    color: firebrick;
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 350%;
+    padding: 0px 0px 0px 40px;
+    margin: 10px 0px 10px 0px;
+}
+
+h2 {
+    color: black;
+    font-size: 170%;
+    padding: 0px 0px 0px 100px;
+    margin: 0px 0px 0px 0px;
+}
+
+h3 {
+    color: black;
+    font-size: 170%;
+    padding: 10px 0px 0px 150px;
+    margin: 0px 0px 20px 0px;
+}
+
+h4 {
+    color: black;
+    font-size: 170%;
+    /*    padding: 10px 0px 0px 150px;*/
+    /*    margin: 0px 0px 20px 0px;*/
+}
+
+
+
+
+
+
+
+
+/* ******************** Building the Nav area with colors, style and positions         *********************************** */
+
+.site-nav {
+    margin-top: 20px;
+  
+    
+    
+}
+
+
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav li {
+    list-style: none;
+    float: left;
+    margin-left: 10px;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    border: 5px solid firebrick;
+}
+
+.site-nav a:hover {
+    background-color: aqua;
+}
+
+
+
+
+/* ******************** Building Main container area with white backgroundthe          *********************************** */
+
+.container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    background-color: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+}
+
+
+.content-area {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.main-story {
+    width: 50%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    width: 50%;
+    float: left;
+    background-color: antiquewhite;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.circus {
+    width: 50%;
+    float: left;
+    /*    background-color: antiquewhite;*/
+    margin-top: 20px;
+
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    border: solid black;
+}
+
+
+
+
+
+/* ******************** Building style for images          **********************************  */
+
+.img1 {
+    width: 70%;
+    height: auto;
+    margin-right: 10px;
+    padding-right: 5px;
+    float: left;
+}
+
+.img2 {
+    width: 40%;
+    height: auto;
+    margin-right: 20px;
+    float: left;
+    border: solid black;
+    box-sizing: border-box;
+}
+
+
+.img3 {
+    width: 15%;
+    /*    padding-right: 5px;*/
+    height: auto;
+    float: right;
+    border: solid black;
+}
+
+
+.img4 {
+    width: 100%;
+    height: auto;
+    padding-right: 5px;
+    /*    float: left;    */
+}
+
+
+.img5 {
+    width: 40%;
+    /*    padding-right: 5px;*/
+    margin-bottom: 20px;
+    height: auto;
+    float: right;
+    border: solid black;
+}
+
+.img6 {
+    width: 20%;
+    /*    padding-right: 5px;*/
+    margin-bottom: 20px;
+    height: auto;
+    float: right;
+    border: solid black;
+}
+
+
+
+/* ******************** Building the Footer area          *********************************** */
+
+footer {
+
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    text-align: center;
+    fond-size: 10%;
+    color: red;
+    background-color: #ffffff;
+}
+
+
+/*clearfix method*/
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    zoom: 1;
+}
+
+/*end clearfix method*/
